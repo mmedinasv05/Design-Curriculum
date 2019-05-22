@@ -1,0 +1,252 @@
+/**********Tablet**********/
+@media (max-width:800px){
+    .margenesMobile{
+        margin: 15px 0;
+    }
+    .effect{
+        display: none;
+    }
+    .titleSeconds{
+        text-align: center;
+    }
+    .containerMain{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundConatiner);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .containerPage{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundPage);
+        position: relative;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .containerPage2{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundPage);
+        position: relative;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .columnOnePage{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundAlt);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .boxPhoto{
+        width: 100%;
+        height: 200px;
+        background-color: var(--backgroundAlt);
+    }
+    .boxInformation{
+        width: 100%;
+        height: 300px;
+        background-color: var(--backgroundAlt);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .boxSkills{
+        width: 100%;
+        height: 400px;
+        background-color: var(--backgroundAlt);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleSeconds{
+        font-family: sans-serif;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        font-size: 17px;
+        background-color: #091929;
+        clip-path: none;
+        width: 100%;
+        height: 50px;
+        position: relative;
+    }
+    .columnTwoPage{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundPage);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .boxFormationSchool{
+        width: 100%;
+        height: 300px;
+        background-color: var(--backgroundPage);
+        position: relative;
+    }
+    .boxExperience{
+        width: 100%;
+        height: 400px;
+        background-color: var(--backgroundPage);
+        position: relative;
+    }
+    .controls{
+        width: 100%;
+        height: 50px;
+        background-color: none;
+        margin-top: 0;
+    }
+    .boxCourses{
+        width: 100%;
+        height: 550px;
+        background-color: var(--backgroundPage);
+    }
+    .referencePersonal{
+        width: 100%;
+        height: 300px;
+        background-color: var(--backgroundPage);
+    }
+}
+
+
+
+
+/**********Smarphone**********/
+@media (max-width:500px){
+    .margenesMobile{
+        margin: 15px 0;
+    }
+    .effect{
+        display: none;
+    }
+    .titleSeconds{
+        text-align: center;
+    }
+    .containerMain{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundConatiner);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .containerPage{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundPage);
+        position: relative;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .containerPage2{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundPage);
+        position: relative;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .columnOnePage{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundAlt);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .boxPhoto{
+        width: 100%;
+        height: 200px;
+        background-color: var(--backgroundAlt);
+    }
+    .boxInformation{
+        width: 100%;
+        height: 400px;
+        background-color: var(--backgroundAlt);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .boxSkills{
+        width: 100%;
+        height: 400px;
+        background-color: var(--backgroundAlt);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleSeconds{
+        font-family: sans-serif;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        font-size: 17px;
+        background-color: #091929;
+        clip-path: none;
+        width: 100%;
+        height: 50px;
+        position: relative;
+    }
+    .columnTwoPage{
+        width: 100%;
+        height: auto;
+        background-color: var(--backgroundPage);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .boxFormationSchool{
+        width: 100%;
+        height: 400px;
+        background-color: var(--backgroundPage);
+        position: relative;
+    }
+    .boxExperience{
+        width: 100%;
+        height: 550px;
+        background-color: var(--backgroundPage);
+        position: relative;
+    }
+    .controls{
+        width: 100%;
+        height: 50px;
+        background-color: none;
+        margin-top: 0;
+    }
+    .boxCourses{
+        width: 100%;
+        height: 700px;
+        background-color: var(--backgroundPage);
+    }
+    .referencePersonal{
+        width: 100%;
+        height: 250px;
+        background-color: var(--backgroundPage);
+    }
+}

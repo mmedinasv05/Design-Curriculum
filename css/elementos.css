@@ -1,0 +1,305 @@
+:root{
+    --colorHtml: #E44D26;
+    --colorCSS:#3595CF;
+    --colorJavaScript: #EFD81D;
+    --colorPHP: #4B5DC0;
+    --colorJava: #E32C2E;
+}
+/************************************AFTER AND BEFORE************************************/
+.fa-html5::after{
+    content: "";
+    width: 125px;
+    height: 10px;
+    background-color: none;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-html5::before{
+    content: "";
+    width: 70px;
+    height: 10px;
+    background-color: var(--colorHtml);
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-css3-alt::after{
+    content: "";
+    width: 125px;
+    height: 10px;
+    background-color: none;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-css3-alt::before{
+    content: "";
+    width: 70px;
+    height: 10px;
+    background-color: var(--colorCSS);
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-js::after{
+    content: "";
+    width: 125px;
+    height: 10px;
+    background-color: none;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-js::before{
+    content: "";
+    width: 30px;
+    height: 10px;
+    background-color: var(--colorJavaScript);
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-php::after{
+    content: "";
+    width: 125px;
+    height: 10px;
+    background-color: none;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-php::before{
+    content: "";
+    width: 20px;
+    height: 10px;
+    background-color:  var(--colorPHP);
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-java::after{
+    content: "";
+    width: 125px;
+    height: 10px;
+    background-color: none;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.fa-java::before{
+    content: "";
+    width: 30px;
+    height: 10px;
+    background-color: var(--colorJava);
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+
+
+/**********Tablet**********/
+@media (max-width:800px){
+    .fa-html5::after{
+        content: "";
+        width: 400px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+    .fa-html5::before{
+        content: "";
+        width: 200px;
+        height: 10px;
+        background-color: var(--colorHtml);
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+    .fa-css3-alt::after{
+        content: "";
+        width: 400px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+    .fa-css3-alt::before{
+        content: "";
+        width: 200px;
+        height: 10px;
+        background-color: var(--colorCSS);
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+    .fa-js::after{
+        content: "";
+        width: 400px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -130px;
+    }
+    .fa-js::before{
+        content: "";
+        width: 120px;
+        height: 10px;
+        background-color: var(--colorJavaScript);
+        position: absolute;
+        top: 30px;
+        left: -130px;
+    }
+    .fa-php::after{
+        content: "";
+        width: 400px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+    .fa-php::before{
+        content: "";
+        width: 80px;
+        height: 10px;
+        background-color:  var(--colorPHP);
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+    .fa-java::after{
+        content: "";
+        width: 400px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+    .fa-java::before{
+        content: "";
+        width: 100px;
+        height: 10px;
+        background-color: var(--colorJava);
+        position: absolute;
+        top: 30px;
+        left: -150px;
+    }
+}
+
+
+
+/**********Smarphone**********/
+@media (max-width:500px){
+    .fa-html5::after{
+        content: "";
+        width: 200px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .fa-html5::before{
+        content: "";
+        width: 100px;
+        height: 10px;
+        background-color: var(--colorHtml);
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .fa-css3-alt::after{
+        content: "";
+        width: 200px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .fa-css3-alt::before{
+        content: "";
+        width: 100px;
+        height: 10px;
+        background-color: var(--colorCSS);
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .fa-js::after{
+        content: "";
+        width: 200px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -30px;
+    }
+    .fa-js::before{
+        content: "";
+        width: 60px;
+        height: 10px;
+        background-color: var(--colorJavaScript);
+        position: absolute;
+        top: 30px;
+        left: -30px;
+    }
+    .fa-php::after{
+        content: "";
+        width: 200px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .fa-php::before{
+        content: "";
+        width: 40px;
+        height: 10px;
+        background-color:  var(--colorPHP);
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .fa-java::after{
+        content: "";
+        width: 200px;
+        height: 10px;
+        background-color: none;
+        border: 1px solid #FFFFFF;
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .fa-java::before{
+        content: "";
+        width: 60px;
+        height: 10px;
+        background-color: var(--colorJava);
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+}
